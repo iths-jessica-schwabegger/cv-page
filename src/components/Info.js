@@ -9,6 +9,7 @@ export default function Info() {
     return(
         <div className={ block() }>
             <h1>JESSICA SCHWABEGGER</h1>
+            
         </div>
     )
 }
