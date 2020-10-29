@@ -1,0 +1,13 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__content {
+        background-color: #6A90AC;
+        height: 100vh;
+        width: 15rem;
+        // position: relative;
+        // top: -10rem;
+    }
+}

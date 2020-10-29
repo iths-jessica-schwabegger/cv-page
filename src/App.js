@@ -2,14 +2,14 @@ import './App.css';
 
 import Footer from './components/Footer';
 import Header from './components/Header';
-import InfoSection from './components/InfoSection';
+import Aside from './components/Aside';
 
 
 function App() {
   return (
     <div className="App">
+      <Aside />
       <Header />
-      <InfoSection />
       <Footer />
     </div>
   );

@@ -1,11 +1,11 @@
 import React from "react";
 import purebem from "purebem";
 
-import './InfoSection.scss';
+import './Aside.scss';
 
 
-export default function InfoSection() {
-    const block = purebem('info-section');
+export default function Aside() {
+    const block = purebem('aside');
     return(
         <div className={ block() }>
             <section className={ block('content') }>
