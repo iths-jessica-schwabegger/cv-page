@@ -7,7 +7,25 @@
         background-color: #6A90AC;
         height: 100vh;
         width: 15rem;
-        // position: relative;
-        // top: -10rem;
+    }
+
+    &__img-container {
+        width: 100%;
+        height: 240px;
+        position: relative;
+        left: 20%;
+        top: 30rem;
+        padding: 2rem;
+        border-radius: 50%;
+        border: 1px solid #6A90AC;
+
+        img {
+            border-radius: 50%;
+            box-shadow: 10px 8px 34px -15px rgba(0,0,0,0.75);
+            height: 240px;
+            object-fit: cover;
+            object-position: 0 -15px;
+            width: 100%;
+        }
     }
 }

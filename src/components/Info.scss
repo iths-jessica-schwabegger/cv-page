@@ -1,0 +1,9 @@
+@import "../App.scss";
+
+.info {
+    text-align: left;
+    margin-left: 3rem;
+    h1{
+        @include h1();
+    }
+}

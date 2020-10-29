@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Economica&display=swap);
+
+
+@mixin h1(){
+  font-family: 'Economica', sans-serif;
+  font-weight: normal;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+
+  &__main-content {
+    width: 100%;
+  }
+}
+
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
