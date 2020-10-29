@@ -11,9 +11,25 @@
             margin: 2rem;
             text-decoration: none;
             
-            &:hover {
-                border-bottom: 1px solid grey;
+            &:hover:after {
+                content: "";
+                display: block;
+                border-bottom: 1px solid #9CADBC;
+                margin: 0 auto;
+                padding-top: 5px;
+                animation: line 1s ease-out;
+                text-align: center;
             }
         }
+    }
+}
+
+@keyframes line {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 100%;
     }
 }
