@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Economica&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round&display=swap);
 
 
-@mixin h1(){
+@mixin h1() {
   font-family: 'Economica', sans-serif;
   font-weight: normal;
+}
+
+@mixin p() {
+  font-family: 'Varela Round', sans-serif;
 }
 
 .app {

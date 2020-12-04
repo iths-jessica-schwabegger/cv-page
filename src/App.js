@@ -17,7 +17,7 @@ function App() {
       </div>
       <div className={ block("main-content")}>
         <div className={ block("header-content") }>
-          <Header />
+          <Header title="JESSICA SCHWABEGGER" />
         </div>
         <div className={ block("info-content") }>
           <Info />

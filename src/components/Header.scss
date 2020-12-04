@@ -1,7 +1,13 @@
+@import "../App.scss";
+
 .header {
-    height: 3rem;
-    margin-bottom: 5rem;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    h1{
+        @include h1();
+        margin-left: 3rem;
+    }
 
     &__content {
         display: flex;
@@ -11,6 +17,7 @@
             color: #384955;
             margin: 2rem;
             text-decoration: none;
+            @include p();
             
             &:hover:after {
                 content: "";
