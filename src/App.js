@@ -1,6 +1,7 @@
 import purebem from 'purebem';
 import './App.scss';
 
+import Card from './components/Card';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Aside from './components/Aside';
@@ -19,9 +20,10 @@ function App() {
         <div className={ block("header-content") }>
           <Header title="JESSICA SCHWABEGGER" />
         </div>
-        <div className={ block("info-content") }>
-          <Info />
-        </div>
+        {/* <div className={ block("info-content") }> */}
+          <Card />
+          {/* <Info /> */}
+        {/* </div> */}
       </div>
         {/* <Footer /> */}
     </div>

@@ -1,6 +1,7 @@
 @import "../App.scss";
 
 .header {
+    height: 7rem;
     display: flex;
     justify-content: space-between;
 
@@ -22,7 +23,7 @@
             &:hover:after {
                 content: "";
                 display: block;
-                border-bottom: 1px solid #A88096;
+                border-bottom: 2.5px solid #A88096;
                 margin: 0 auto;
                 padding-top: 5px;
                 animation: line 1s ease-out;
